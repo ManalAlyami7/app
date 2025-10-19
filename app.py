@@ -1,8 +1,7 @@
 from openai import OpenAI
 import streamlit as st
-import os
 
-api_key = st.secrets("key")
+api_key = st.secrets["key"]
 from langchain_openai import ChatOpenAI
 from langchain.schema import HumanMessage, AIMessage, SystemMessage
 
